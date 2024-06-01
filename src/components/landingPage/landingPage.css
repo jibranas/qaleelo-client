@@ -1,0 +1,307 @@
+:root {
+  --background-light: #E5E4E2;
+  --background-dark: #262c3c;
+}
+
+.lightbody {
+  background: var(--background-light);
+  transition: background 0.5s ease;
+  /* color: white; */
+  /* Add more mode-specific styles here */
+}
+
+.darkbody{
+  background: var(--background-dark);
+  transition: background 0.5s ease;
+  /* color: black; */
+}
+
+
+
+
+
+/* Container for the fancy title */
+.title-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Fancy title styles */
+  .fancy-title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 8vh;
+    color: #eb3535;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.courseIconAndTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    max-width: 35%;
+    margin: 1vh;
+}
+
+
+/* Apply the zoom effect on hover */
+.courseIconAndTitle:hover {
+  transform: scale(1.03);
+}
+
+.courseHeader{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.courseCardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+.courseImage{
+    
+    width: 100%;
+    height: auto;
+    /* margin-right: 20px; */
+    border-radius: 15%;
+    float: left;
+    /* box-shadow: 0 0 8px 8px white inset; */
+      
+    
+}
+
+.landingPageCourseImage{
+  width: 40%;
+  height: auto;
+  margin: 15px;
+  border-radius: 15%;
+}
+
+
+
+
+
+h3 {
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0;
+    margin-bottom: 150px;
+    font-family: "Quicksand", sans-serif;
+    color: #eb8381;
+
+}
+
+.courseDescription {
+    text-align: center;
+    font-size: 2vh;
+    font-family: "Quicksand", sans-serif;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    /* max-height: 40%; */
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #eb8381
+    /* margin: 70px ; */
+    /* margin-bottom: 50px; */
+    /* max-width: 60%; */
+
+}
+
+.courseDescriptionANDGoals{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.courseFullDetails{
+  /* padding-top: 50px; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: #dd6260;
+  border-radius: 10%;
+  max-width: 95%;
+  overflow: hidden;
+
+  
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.767); /* Add a subtle box shadow for elevation */
+  
+ 
+}
+
+.navHeader {
+    font-size: 8vh;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: #f8f6f0;
+    font-weight: bold;
+}
+
+ .courseGoals {
+ 
+ 
+   
+    
+}
+
+/* .courseGoals:hover {
+    transform: rotate(3deg) scale(1.05); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+} */ */
+
+
+
+.courseGoalsHeader {
+
+    text-align: center;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #8747d4;
+    /* max-width: 70%; */
+    border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;
+
+    
+}
+
+.courseGoalItem{
+  font-size: 2vh;
+}
+
+
+.courseGoalsDescription {
+    font-size: 40px;
+    font-weight: bold;
+    color: #252525;
+    /* font-weight: bold; */
+  margin: 0px 50px 0px 50px;
+   
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+.courseGoalsDescription p{
+  margin: 0;
+}
+
+
+/* .courseReference{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Quicksand;
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: #8747d4;
+  transform: rotate(3deg) scale(1);
+  transform-origin: center center;
+  border-radius: 10%;
+  transition: transform 0.3s, box-shadow 0.3s; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.courseReference:hover {
+  transform: rotate(-3deg) scale(1.05); 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); 
+} */
+
+.courseReference {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseReferenceImage{
+ 
+  width: 40%;
+  height: auto;
+  margin: 30px;
+  border-radius: 15%;
+}
+
+.courseReferenceDescription{
+  font-size: 2vh;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  /* max-width: 60%; */
+  color: white;
+  /* padding: 40px; */
+  margin: 20px;
+  background-color: #9d55a7;
+  border-radius: 10px;
+  padding: 20px;
+
+  
+
+}
+
+/* Adjust width for desktop view (width: 25%) */
+@media only screen and (min-width: 601px) {
+ 
+
+  .courseFullDetails{
+    /* padding-top: 50px; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #dd6260;
+    border-radius: 5%;
+    max-width: 30%;
+}
+
+.courseDescription {
+  font-size:3vh;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* max-height: 40%; */
+  margin-bottom: 0;
+  color: #eb8381
+  /* margin: 70px ; */
+  /* margin-bottom: 50px; */
+  /* max-width: 60%; */
+
+}
+
+.courseGoalsDescription {
+  font-size: 18px;
+  font-weight: bold;
+  color: #252525;
+  /* font-weight: bold; */
+margin: 0px 25px 0px 25px;
+ 
+  font-family: "Quicksand", sans-serif;
+  
+}
+
+.courseReferenceDescription{
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+  /* max-width: 60%; */
+  color: white;
+  /* padding: 40px; */
+  
+  
+
+}
+
+.landingPageCourseImage{
+  width: 10%;
+  height: auto;
+  margin: 5px;
+  border-radius: 15%;
+}
+
+}

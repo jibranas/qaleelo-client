@@ -1,0 +1,176 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.courseContent {
+  width: 85%;
+  margin: 100px auto;
+  background: #f8f6f0;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.courseContentHeader {
+  /* margin-top: 50px; */
+  padding: 15px 0px 15px 25px;
+  /* font-size: 20px; */
+  font-size: 3.5vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidenavContentHeaderMainMenuCC {
+  margin-top: 5px;
+  padding: 15px 0px 15px 25px;
+  /* font-size: 20px; */
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.sidenavContentCC {
+  padding: 15px 0px 15px 50px;
+  cursor: pointer;
+  font-size: 2.3vh;
+  display: flex;
+  justify-content: space-between;
+
+  /* width: 50%; */
+}
+.sidenavContentCC:hover {
+  background-color: #f2b1ae;
+}
+
+.sidenavRowCC {
+  display: flex;
+  /* width: 100%; */
+  /* font-size: 1.8vh; */
+  font-size: 2vh;
+  justify-content: space-between;
+  padding: 15px 15px 15px 90px;
+  cursor: pointer;
+  background-color: rgb(231, 231, 231);
+}
+.sidenavRowCC:hover {
+  background-color: #f2b1ae;
+}
+.sidenavRowCC i {
+  color: #8e9090;
+}
+.sidenavRowCC:hover i {
+  color: #111111;
+}
+.sidenavRowTextCC{
+  font-size: 2vh;
+}
+
+
+.sidenavRow-submenu  {
+  display: block;
+  
+}
+
+.toggle-btn {
+  transition: transform 0.5s;
+}
+
+.toggle-btn-down {
+  transition: transform 0.5s;
+  transform: rotate(180deg);
+}
+
+
+
+.sidenavRow-submenu-notOpen{
+  display: none;
+}
+
+.courseStatBanner {
+  /* display: inline; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  padding: 3px;
+  /* max-height: 60%; */
+  
+}
+
+
+.courseStat {
+  /* display: inline; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  /* padding: 30px; */
+  /* width: 300px; */
+  /* height: 400px; */
+  max-width: 23%;
+  margin: 15px;
+}
+
+.courseStatImage{
+  max-width: 100%;
+  font-size: 3vh;
+  /* color: #ebd8d8; */
+}
+
+.courseStatNumber {
+  font-size: 3vh;
+  font-weight: bold;
+  text-align: center;
+  /* color: #ebd8d8; */
+}
+@media (max-width: 1000px) {
+  .courseStatNumber{
+    font-size: 3vh;
+  }
+}
+
+.courseStatName {
+  font-size: 1.9vh;
+}
+
+.courseStatDescription {
+  /* font-size: 1.5vh; */
+  /* width: 300px; */
+  text-align: center;
+  /* color: #ebd8d8; */
+}
+
+.courseGoalsHeader {
+  text-align: left;
+  font-size: 3vh;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color:#dd6260;
+  /* padding: 20px; */
+  /* background-color: #8747d4; */
+  /* max-width: 70%; */
+  /* border-radius: 30%; */
+  
+
+  
+}
+
+/* Adjust width for desktop view (width: 25%) */
+@media (min-width: 1500px) {
+
+  .courseGoalsHeader {
+    
+    font-size: 4vh;
+    
+    /* padding: 20px; */
+    /* background-color: #8747d4; */
+    /* max-width: 70%; */
+    /* border-radius: 30%; */
+    
+  
+    
+  }
+
+}

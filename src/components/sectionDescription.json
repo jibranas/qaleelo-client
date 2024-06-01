@@ -1,0 +1,372 @@
+{
+  "sectionNumber": "1.1.2",
+  "sectionTitle": "How content creators use it",
+  "lessonAnimation": [{
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "maxWidth": "60%",
+            "marginLeft": "20%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img style='border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/aliabdaal.png'></img>"
+        }, {
+          "className": "sectionDescription",
+          "style": {
+
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Ali Abdaal uses prompts in ChatGPT for idea generation."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "And prompts in Notion AI to summarize his notes."
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Youtubers use AI image generating tools like Dall-E, Midjourney, Canva Magic media to create attractive thumbnails."
+        }, {
+          "className": "sectionDescription",
+          "style": {
+            "maxWidth": "80%",
+            "marginLeft": "30%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img style='border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/AI+image+generation.png'></img>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "The better you engineer the prompts the better the images!"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "exit": {},
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "<img style='' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/freeflo.png'></img>"
+      }, {
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "freeflo.ai is a website that generates tons of stock images made from ai using prompts, to make images look naturally of the same design."
+      }]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "exit": {},
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "<img style='' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/deblank2.png'></img>"
+      }, {
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "deblank.com uses ai prompts to generate a color pallet suitable for projects, the above is a selection of colors when the prompt was 'ferrero rocher chocolate website'."
+      }]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "exit": {},
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "<img style='' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/deblank1.png'></img>"
+      }, {
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "And here it gave a selection of colors when prompted for a Ferrari car presentation. Ah there we go, that's a beautiful red!"
+      }]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "maxWidth": "60%",
+            "marginLeft": "20%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img style='border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/Nico1.png'></img>"
+        }, {
+          "className": "sectionDescription",
+          "style": {
+
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Nico used prompt engineering to create an AI tool called TalkNotes to summarize long notes into a number of different formats."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "maxWidth": "80%",
+            "marginLeft": "10%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img style='border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;' src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/aiGenerated/Nico2.png'></img>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "You can see that there are a number of ways getting better at prompt engineering can help you in content creation!"
+      }]
+    }
+
+
+
+
+  ]
+}

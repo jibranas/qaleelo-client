@@ -1,0 +1,85 @@
+[{
+        "exampleId": "2",
+        "sectionNumber": "2.1.2",
+        "sectionTitle": "The Meaning",
+        "type": "Identify",
+        "subType": "",
+        "question": "What is the meaning of Kalima Tawheed",
+        "answers": [{
+                "answer": "مَعْبُودَ بِحَقٍّ​",
+                "explanation": "This only a part of the meaning.",
+                "isCorrect": false
+            },
+            {
+                "answer": "لاَ مَعْبُودَ بِحَقٍّ​ اِلاَّ​ الله",
+                "isCorrect": true
+            },
+            {
+                "answer": " لا إله إلا الله",
+                "explanation": "These are the words of Kalima Tawheed, but what is the meaning?",
+                "isCorrect": false
+            },
+            {
+                "answer": "لاَ مَعْبُودَ بِحَقٍّ​",
+                "explanation": "This only a part of the meaning.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "exampleId": "2",
+        "sectionNumber": "2.1.2",
+        "sectionTitle": "The Meaning",
+        "type": "Identify",
+        "subType": "",
+        "question": "Which word in Kalima Tawheed has the meaning مَعْبُودَ بِحَقٍّ​",
+        "answers": [{
+                "answer": "لاَ",
+                "explanation": "Try again.",
+                "isCorrect": false
+            },
+            {
+                "answer": "الله",
+                "explanation": "Try again.",
+                "isCorrect": false
+            },
+            {
+                "answer": "اِلاَّ",
+                "explanation": "Try again.",
+                "isCorrect": false
+            },
+            {
+                "answer": "اِلهَ",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "exampleId": "2",
+        "sectionNumber": "2.1.2",
+        "sectionTitle": "The Meaning",
+        "type": "Identify",
+        "subType": "",
+        "question": "What is the translation of مَعْبُودَ بِحَقٍّ​",
+        "answers": [{
+                "answer": "Deity who is truthful",
+                "explanation": "Nope",
+                "isCorrect": false
+            },
+            {
+                "answer": "Deity who is worshipped",
+                "explanation": "Try again.",
+                "isCorrect": false
+            },
+            {
+                "answer": "Deity worthy of worship",
+                "isCorrect": true
+            },
+            {
+                "answer": "Deity",
+                "explanation": "Try again.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

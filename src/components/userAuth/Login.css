@@ -1,0 +1,306 @@
+.continue-with-google {
+  width: 80%;
+  max-width: 300px; /* Optional: Set a max-width to prevent the button from getting too wide on larger screens */
+  height: 50px;
+  line-height: 50px; /* Center the text vertically */
+  text-align: center;
+  border-radius: 25px; /* Half of the height for rounded corners */
+  background-color: #4285f4; /* Google Blue */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+
+
+/* For desktop devices */
+@media only screen and (min-width: 601px) {
+  .GetStartedImage {
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    border-radius: 25px; /* Add rounded border */
+  }
+
+  .LoginMessage {
+    font-size: 2.5vh;
+    margin-bottom: 200px;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .LoginMessageHeader {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #8747d4;
+  }
+
+
+  
+  
+  
+  .GetStartedImagesContainer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 60%; /* Adjust the height to 60% of the viewport height */
+    background-color: #262c3c; /* Add black background color */
+  }
+
+  .FixedScrollableSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60%; /* Adjust the height as needed */
+    overflow: auto;
+  }
+  
+  .GetStartedRow {
+    display: flex;
+    margin-bottom: 20px; /* Add margin between rows */
+    margin-top: 20px;
+  }
+  
+  
+  .GetStartedButton {
+    font-size: 2.5vh;
+    border-radius: 999px; /* Use a large value to make it pill-shaped */
+    width: 20%;
+    background: #8747d4;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+  }
+  
+  .GetStartedLoginText {
+    margin-top: 10px;
+    font-size: 2vh;
+  }
+  
+  .GetStartedHeader {
+    font-size: 5vh;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .MessageTopSection {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+   
+  }
+  
+  .MessageMiddleSection {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .MessageBottomSection {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .WelcomeMessageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  
+  
+  .WelcomeMessageImagesContainer {
+    display: flex;
+    height: 60%; /* Adjust the height to 60% of the viewport height */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+
+  
+  .WelcomeMessageText {
+    font-size: 2.5vh;
+  padding: 50px;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .WelcomeMessageFooter {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+  
+
+}
+
+
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .GetStartedImage {
+    width: 380px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    border-radius: 50px; /* Add rounded border */
+  }
+
+  .FixedScrollableSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60%; /* Adjust the height as needed */
+    overflow: auto;
+  }
+
+  .LoginMessage {
+    font-size: 2.5vh;
+    margin-bottom: 200px;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .LoginMessageHeader {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  
+  
+  .GetStartedImagesContainer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 60%; /* Adjust the height to 60% of the viewport height */
+    background-color: #262c3c; /* Add black background color */
+  }
+  
+  .GetStartedRow {
+    display: flex;
+    margin-bottom: 20px; /* Add margin between rows */
+    margin-top: 20px;
+  }
+  
+  
+  .GetStartedButton {
+    font-size: 2.5vh;
+    border-radius: 999px; /* Use a large value to make it pill-shaped */
+    width: 70%;
+    background: #8747d4;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+  }
+  
+  .GetStartedLoginText {
+    margin-top: 10px;
+    font-size: 2vh;
+  }
+  
+  .GetStartedHeader {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .MessageTopSection {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MessageMiddleSection {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .MessageBottomSection {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .WelcomeMessageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  
+  
+  .WelcomeMessageImagesContainer {
+    display: flex;
+    height: 60%; /* Adjust the height to 60% of the viewport height */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .WelcomeMessageImagesContainerScrollable {
+    overflow-y: scroll;
+    display: flex;
+    height: 60%; /* Adjust the height to 60% of the viewport height */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .WelcomeMessageText {
+    font-size: 2.5vh;
+  padding: 40px;
+    text-align: center;
+    color: #8747d4;
+  }
+  
+  .WelcomeMessageFooter {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+}
+
+
+
+
+
+
+

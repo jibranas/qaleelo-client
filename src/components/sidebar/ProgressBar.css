@@ -1,0 +1,42 @@
+
+/*Desktop*/
+@media only screen and (min-width: 601px) {
+
+    .courseProgressMainContainer{
+      
+       
+       
+    }
+    
+    .courseProgressBarContainer{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      max-width: 50%;
+      margin-left: 25%;
+   
+    }
+
+    .CourseTitleContainer{
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    
+
+    }
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+
+    .CourseTitleContainer{
+        max-width: 85%;
+        margin-left: 5%;
+    }
+    
+    .courseProgressBarContainer{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      max-width: 85%;
+      margin-left: 7.5%;
+    }}

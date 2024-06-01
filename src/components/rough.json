@@ -1,0 +1,2825 @@
+{
+  "lessonAnimation": [{
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "In Arabic the word <span class='arabicNormalSize'> اِلهَ </span>has a broader meaning which is"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "y": "-100vw"
+          },
+          "animate": {
+            "y": 0
+          },
+          "transition": {
+            "ease": "easeOut",
+            "delay": "0.5"
+          },
+          "content": "<span class='arabicVeryLargeSize'>مَعْبُودَ بِحَقٍَّ</span>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": 0
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "But where did this meaning come from?"
+        },
+        {
+          "className": "sectionDescription",
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": "1"
+          },
+          "content": "Lets dive into this deeper!"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "paddingTop": "2vh",
+            "marginBottom": 0
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": "2",
+            "ease": "easeIn"
+          },
+          "content": "It looks like its made up of two words."
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "color": "rgb(188,89,8)",
+            "textShadow": "5px 5px 5px rgba(0, 0, 0, 0.5)",
+            "marginTop": 0
+          },
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "transition": {
+            "delay": 1,
+            "duration": 0.2,
+            "type": "spring",
+            "stiffness": 150,
+            "damping": 5
+          },
+          "content": "<span class='arabicVeryLargeSize'>بِحَقٍّ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "<i class='fa-solid fa-plus fa-lg'></i>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "color": "#08BCB3",
+            "textShadow": "5px 5px 5px rgba(0, 0, 0, 0.5)"
+          },
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "transition": {
+            "duration": 0.02,
+            "type": "spring",
+            "stiffness": 150,
+            "damping": 5
+          },
+          "content": "<span class='arabicVeryLargeSize'>مَعْبُودَ</span>"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0",
+        "marginLeft": "10%",
+        "marginRight": "10%"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>مَعْبُودَ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "ease": "easeIn"
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 1,
+            "ease": "easeIn"
+          },
+          "content": "God who is worshipped"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "rgb(188,89,8)"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>بِحَقٍّ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "ease": "easeIn"
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "rgb(188,89,8)"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 1,
+            "ease": "easeIn"
+          },
+          "content": "In Truth (Worthy)"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0 0 2vh 0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<i class='fa-solid fa-equals fa-lg'></i>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "ease": "easeIn"
+          },
+          "content": "God"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "rgb(188,89,8)"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 1,
+            "ease": "easeIn"
+          },
+          "content": "Worthy"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 1.5,
+            "ease": "easeIn"
+          },
+          "content": "of Worship"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "fontSize": "6vh",
+            "color": "#08BCB3",
+            "display": "flex",
+            "justify-content": "center",
+            "align-items": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "y": -30
+          },
+          "transition": {
+            "yoyo": "Infinity",
+            "duration": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "مَعْبُودَ",
+          "contentStyle": {
+            "backgroundColor": "#483e5b",
+            "borderRadius": "4% 4% 4% 4% / 10% 10% 10% 10%",
+            "padding": "15px",
+            "display": "flex",
+            "alignItems": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "marginBottom": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "comes from the Ayah"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "none"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "delay": 1,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍۢ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "display": "none",
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "block"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "أَن <span style='color: #a678de;'> لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ</span> ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍۢ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "none"
+          },
+          "transition": {
+            "type": "spring",
+            "delay": 1,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "That you should worship none but Allah. I truly fear for you the torment of a painful Day."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "display": "none",
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "block"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "That <span style='color: #a678de;'>you should worship</span> none but Allah. I truly fear for you the torment of a painful Day."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0",
+            "textAlign": "center",
+            "fontSize": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "delay": 1,
+            "damping": 20
+          },
+          "content": "[Surat Hud 11:26]"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Focus on the <span style='color: #a678de;'>highlighted</span> words, have you seen them before?"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "delay": 2,
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Sure you have!"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "delay": 2.5,
+            "damping": 20
+          },
+          "content": "Lets write it down once again."
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "justifyContent": "space-around"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "delay": 1.5,
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "ٱللَّهَ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "delay": 1,
+            "damping": 20
+          },
+          "content": "إِلَّا"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de",
+            "width": "300px"
+          },
+          "initial": {
+            "scale": 0,
+            "y": 0
+          },
+          "animate": {
+            "scale": 1,
+            "y": [
+              0,
+              -30,
+              0
+            ]
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "delay": 0.5,
+            "damping": 20,
+            "y": {
+              "delay": 3,
+              "duration": 1,
+              "repeat": "Infinity"
+            }
+          },
+          "content": "تَعْبُدُوٓا۟"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "لَّا"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "justifyContent": "space-around"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "delay": 1.5,
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "ٱللَّهَ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "إِلَّا"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "textAlign": "center",
+            "color": "#a678de",
+            "width": "300px"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1,
+            "y": [
+              0,
+              -30,
+              0
+            ]
+          },
+          "transition": {
+            "type": "spring",
+            "delay": 0.5,
+            "stiffness": 260,
+            "damping": 20,
+            "y": {
+              "delay": 3,
+              "duration": 1,
+              "repeat": "Infinity"
+            }
+          },
+          "content": "اِلهَ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "8vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "لَّا"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0",
+        "marginLeft": "10%",
+        "marginRight": "10%"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>تَعْبُدُوٓا۟</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "matches"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "6vh",
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": [
+              0,
+              1
+            ]
+          },
+          "transition": {
+            "delay": 1,
+            "duration": 0.5,
+            "ease": "easeInOut"
+          },
+          "content": "اِلهَ"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0",
+        "marginLeft": "10%",
+        "marginRight": "10%"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>تَعْبُدُوٓا۟</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 1
+          },
+          "content": "You worship"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0",
+        "marginLeft": "10%",
+        "marginRight": "10%"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>مَعْبُودَ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#08BCB3"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 1
+          },
+          "content": "God who is worshipped"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {},
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "ease": "easeIn",
+          "delay": 0.5
+        },
+        "content": "The words <span class='arabicNormalSize' style='color: #a678de;'>تَعْبُدُوٓا۟ </span> and <span class='arabicNormalSize' style='color: #08BCB3;'>مَعْبُودَ </span>have the same root word which is <span class='arabicNormalSize' style='color: #BCB308;'>عبد </span>which means <span style='color: #BCB308;'> worship</span>."
+      }]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "fontSize": "6vh",
+            "color": "rgb(188,89,8)",
+            "display": "flex",
+            "justify-content": "center",
+            "align-items": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "y": -30
+          },
+          "transition": {
+            "yoyo": "Infinity",
+            "duration": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "بِحَقٍّ",
+          "contentStyle": {
+            "backgroundColor": "#483e5b",
+            "borderRadius": "4% 4% 4% 4% / 10% 10% 10% 10%",
+            "padding": "15px",
+            "display": "flex",
+            "alignItems": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "marginBottom": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "comes from the Ayah"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "none"
+          },
+          "transition": {
+            "delay": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِۦ هُوَ ٱلْبَـٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "display": "none",
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "block"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ<span style='color: #a678de;'>ٱلْحَقُّ</span> وَأَنَّ مَا يَدْعُونَ مِن دُونِهِۦ هُوَ ٱلْبَـٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "none"
+          },
+          "transition": {
+            "type": "spring",
+            "delay": 1,
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "That is because Allah ˹alone˺ is the Truth and what they invoke besides Him is falsehood, and Allah ˹alone˺ is truly the Most High, All-Great."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null,
+            "display": "none"
+          },
+          "animate": {
+            "opacity": 1,
+            "display": "block"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "display": {
+              "delay": 3
+            }
+          },
+          "content": "That is because Allah ˹alone˺ is <span style='color: #a678de;'>the Truth</span> and what they invoke besides Him is falsehood, and Allah ˹alone˺ is truly the Most High, All-Great."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0",
+            "textAlign": "center",
+            "fontSize": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "delay": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "[Surat Al Hajj 22:62]"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0",
+        "marginLeft": "10%",
+        "marginRight": "10%"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>الْحَقُّ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "#a678de"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 1
+          },
+          "content": "The Truth"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "color": "rgb(188,89,8)"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn"
+          },
+          "content": "<span class='arabicLargeSize'>بِحَقٍّ</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 0.5
+          },
+          "content": "means"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "3vh",
+            "fontWeight": "bold",
+            "color": "rgb(188,89,8)"
+          },
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "ease": "easeIn",
+            "delay": 1
+          },
+          "content": "In Truth (Worthy)"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+          "marginTop": "0"
+        },
+        "initial": {
+          "opacity": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "exit": {},
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "Allah is telling you that He is the Only True God Who should be worshipped."
+      }]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "All other Gods are False Gods that people falsely created for themselves."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "marginTop": "0"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/KalimaTawheed/sectionImages/6.2.1.png'></img>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+          "marginTop": "0"
+        },
+        "initial": {
+          "opacity": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "exit": {},
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "Congratulations! Now you know why <span class='arabicNormalSize'> اِلهَ </span>means<span class='arabicNormalSize'> مَعْبُودَ بِحَقٍّ ! </span>"
+      }]
+    }
+  ]
+}
+
+
+
+{
+  "lessonAnimation": [{
+      "className": "verticalSection",
+      "style": {
+        "marginBottom": 0
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 2.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "A building cannot stand without all its pillars."
+        },
+        {
+          "className": "LottieAnimation",
+          "lottieFilePath": "https://qaleelo-assets.s3.us-east-2.amazonaws.com/General/LottieFiles/pillars.json",
+          "style": {
+            "width": "50%",
+            "marginLeft": "25%"
+          },
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "speed": 2,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": 0,
+        "paddingTop": 0
+      },
+      "initial": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "In the same way, your Tawheed cannot stand without all its Pillars."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Lets study these pillars."
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "The words of Tawheed have two pillars. And they come from the two parts of Kalima Tawheed."
+      }]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "justifyContent": "center",
+        "marginBottom": 0,
+        "paddingBottom": 0
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "6vh",
+            "marginRight": "0.5vh",
+            "textAlign": "center",
+            "width": "250px"
+          },
+          "initial": {
+            "scale": 0,
+            "color": "#08BCB3",
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1,
+            "color": "#E88D72"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "color": {
+              "delay": 0.5,
+              "duration": 1
+            }
+          },
+          "content": "إِلَّا ٱللَّهُ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null,
+            "width": "0%"
+          },
+          "animate": {
+            "width": "25%"
+          },
+          "transition": {
+            "delay": 1,
+            "duration": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 15
+          },
+          "content": ""
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "6vh",
+            "marginLeft": "0.5vh",
+            "textAlign": "center",
+            "width": "250px"
+          },
+          "initial": {
+            "scale": 0,
+            "color": "#08BCB3",
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1,
+            "color": "#F51663"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20,
+            "color": {
+              "delay": 0.5,
+              "duration": 1
+            }
+          },
+          "content": "لَآ إِلَـٰهَ"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "justifyContent": "center",
+        "marginTop": 0,
+        "paddingTop": 0
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "2vh",
+            "fontWeight": "bold",
+            "marginRight": "0.5vh",
+            "textAlign": "center",
+            "width": "250px",
+            "color": "#E88D72"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1,
+            "fontWeight": "bold"
+          },
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 15
+          },
+          "content": "Except Allah"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "width": "25%"
+          },
+          "initial": {},
+          "animate": {},
+          "transition": {},
+          "content": ""
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "2vh",
+            "marginLeft": "0.5vh",
+            "textAlign": "center",
+            "width": "250px",
+            "color": "#F51663"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1,
+            "fontWeight": "bold"
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 15
+          },
+          "content": "There is no God Worthy of Worship"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "justifyContent": "center",
+        "marginTop": 0,
+        "paddingTop": 0
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "2vh",
+            "marginLeft": "0.5vh",
+            "textAlign": "center",
+            "width": "250px",
+            "color": "white",
+            "backgroundColor": "#BB715B",
+            "padding": "10px"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 10
+          },
+          "content": "This pillar is called <br/> <span style='color: white; font-size: 4vh;'> اثبات </span><br/> (Affirmation)"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "width": "25%"
+          },
+          "initial": {},
+          "animate": {},
+          "transition": {},
+          "content": ""
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "2vh",
+            "marginLeft": "0.5vh",
+            "textAlign": "center",
+            "width": "250px",
+            "color": "white",
+            "backgroundColor": "#B00F47",
+            "padding": "10px"
+          },
+          "initial": {
+            "scale": 0
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 10
+          },
+          "content": "This pillar is called <br/> <span style='color: white; font-size: 4vh;'> نفى </span><br/> (Negation)"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "And you need both these pillars for your Tawheed to stand."
+        },
+        {
+          "className": "LottieAnimation",
+          "lottieFilePath": "https://qaleelo-assets.s3.us-east-2.amazonaws.com/General/LottieFiles/TawheedPillars.json",
+          "style": {},
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "speed": 2,
+          "loop": false
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+"lessonAnimation": [{
+    "className": "verticalSection",
+    "style": {},
+    "subSections": [{
+      "className": "sectionDescription",
+      "initial": {
+        "scale": 0,
+        "fontWeight": null
+      },
+      "animate": {
+        "scale": 1
+      },
+      "transition": {
+        "type": "spring",
+        "stiffness": 260,
+        "damping": 20
+      },
+      "content": "Lets look at the meaning of each word in Kalima Tawheed"
+    }]
+  },
+  {
+    "className": "verticalSection",
+    "style": {
+      "maxWidth": "70%",
+      "marginLeft": "15%"
+    },
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "y": "-100vw"
+        },
+        "animate": {
+          "y": 0
+        },
+        "transition": {
+          "ease": "easeOut",
+          "delay": "0.5"
+        },
+        "content": "<span class='arabicLargeSize'>لاَ</span> <i class='fa-solid fa-arrow-right-long'></i> There is no"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "y": "-100vw"
+        },
+        "animate": {
+          "y": 0
+        },
+        "transition": {
+          "ease": "easeOut",
+          "delay": "1"
+        },
+        "content": "<span class='arabicLargeSize'>اِلهَ</span> <i class='fa-solid fa-arrow-right-long'></i> Deity Worthy of Worship"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "y": "-100vw"
+        },
+        "animate": {
+          "y": 0
+        },
+        "transition": {
+          "ease": "easeOut",
+          "delay": "1.5"
+        },
+        "content": "<span class='arabicLargeSize'>اِلاّ</span> <i class='fa-solid fa-arrow-right-long'></i> Except"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "y": "-150vw"
+        },
+        "animate": {
+          "y": 0
+        },
+        "transition": {
+          "ease": "easeOut",
+          "delay": "2"
+        },
+        "content": "<span class='arabicLargeSize'>الله</span> <i class='fa-solid fa-arrow-right-long'></i> Allah"
+      }
+    ]
+  },
+  {
+    "className": "horizontalSection",
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+          "textAlign": "center",
+          "color": "#dd6260",
+          "fontWeight": "bold"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "ease": "easeIn"
+        },
+        "content": "Note that the word"
+      },
+      {
+        "className": "sectionDescription arabicCircle",
+        "style": {
+          "textAlign": "center",
+          "color": "white",
+          "background": "#dd6260",
+          "borderRadius": "50%",
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "rotate": 360,
+          "opacity": 1
+        },
+        "transition": {
+          "ease": "easeIn",
+          "delay": 0.5
+        },
+        "content": "<span class='arabicLargeSize'>اِلهَ</span>"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {
+          "textAlign": "center",
+          "color": "#dd6260",
+          "fontWeight": "bold"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "delay": 0.5,
+          "duration": 0.5,
+          "repeat": "Infinity",
+          "repeatType": "reverse"
+        },
+        "content": "Does NOT mean GOD!!"
+      }
+    ]
+  },
+  {
+    "className": "horizontalSection",
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {
+          "textAlign": "center",
+          "color": "#50C878",
+          "fontWeight": "bold"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "ease": "easeIn"
+        },
+        "content": "The word"
+      },
+      {
+        "className": "sectionDescription arabicCircle",
+        "style": {
+          "textAlign": "center",
+          "color": "white",
+          "background": "#50C878",
+          "borderRadius": "50%",
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "rotate": 360,
+          "opacity": 1
+        },
+        "transition": {
+          "ease": "easeIn",
+          "delay": 0.5
+        },
+        "content": "<span class='arabicLargeSize'>اِلهَ</span>"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {
+          "textAlign": "center",
+          "color": "#50C878",
+          "fontWeight": "bold"
+        },
+        "initial": {
+          "opacity": 0
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "delay": 0.5
+        },
+        "content": "means Deity Worthy of Worship"
+      }
+    ]
+  },
+  {
+    "className": "verticalSection",
+    "style": {},
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "opacity": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "So, the translation of <span class='arabicNormalSize'> لاَ اِلهَ اِلاّ الله</span> is not"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center"
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "rotate": 360,
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "delay": 0.5
+        },
+        "content": "There is no<br/>God<br/> Except Allah",
+        "contentStyle": {
+          "textAlign": "center",
+          "color": "white",
+          "fontSize": "3.2vh",
+          "fontWeight": "bold",
+          "maxWidth": "70%",
+          "background": "#dd6260",
+          "padding": "15px",
+          "display": "flex",
+          "alignItems": "center",
+          "borderRadius": "4% 4% 4% 4% / 10% 10% 10% 10%"
+        }
+      }
+    ]
+  },
+  {
+    "className": "verticalSection",
+    "style": {},
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "opacity": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "The correct translation of <span class='arabicNormalSize'> لاَ اِلهَ اِلاّ الله</span> is"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center"
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "rotate": 360,
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "delay": 0.5
+        },
+        "content": "There is no<br/>God Worthy of Worship<br/> Except Allah",
+        "contentStyle": {
+          "textAlign": "center",
+          "color": "white",
+          "fontSize": "3.2vh",
+          "fontWeight": "bold",
+          "maxWidth": "70%",
+          "background": "#50C878",
+          "padding": "15px",
+          "display": "flex",
+          "alignItems": "center",
+          "borderRadius": "4% 4% 4% 4% / 10% 10% 10% 10%"
+        }
+      }
+    ]
+  },
+  {
+    "className": "verticalSection",
+    "style": {},
+    "subSections": [{
+      "className": "sectionDescription",
+      "initial": {
+        "scale": 0,
+        "fontWeight": null
+      },
+      "animate": {
+        "scale": 1
+      },
+      "transition": {
+        "type": "spring",
+        "stiffness": 260,
+        "damping": 20
+      },
+      "content": "But where did this meaning come from?"
+    }]
+  },
+  {
+    "className": "horizontalSection",
+    "style": {},
+    "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "We will study it in the next lesson!"
+      },
+      {
+        "className": "sectionDescription",
+        "style": {
+          "maxWidth": "40%"
+        },
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "<img src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/KalimaTawheed/sectionImages/2.1.2.png'></img>",
+        "contentStyle": {}
+      }
+    ]
+  }
+]
+
+
+
+{
+  "sectionNumber": "3.3.6",
+  "sectionTitle": "Fearing someone other than Allah in a matter in which only Allah has the Power over",
+  "sectionDescription": "إِنَّمَا ذَٰلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ \nThat is only shaytan who frightens (you) of his supporters.  \nSo fear them not, but fear Me, if you are (indeed) believers. \n\n[Surat Aal-e-Imran: Ayah 175] \n\nThe fear that Allah subhanahu wa Ta’la is talking about here is not the kind of fear that we naturally feel, like when we see a big spider. This is natural fear. The type of fear Allah Subhanahu wa Ta’la is talking about here is “When a person fears other than Allah in some matter in which only Allah has the Power over.” An example of this is in the battle of Uhud when the Muslims were preparing to fight the enemy, the hypocrites feared the opposition more than they feared Allah.  ",
+  "sectionNotes": [],
+  "lessonAnimation": [{
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَـٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "That is only Satan who frightens [you] of his supporters. So fear them not, but fear Me, if you are [indeed] believers."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "fontSize": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "[Surat Ali 'Imran 3:175]"
+        }
+      ]
+    },
+    {
+      "className": "horizontalSection",
+      "style": {
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "The fear that Allah subhanawhu wa Ta’la is talking about here is not the kind of fear that we naturally feel, like when we see a big spider. This is natural fear."
+        },
+        {
+          "className": "LottieAnimation",
+          "lottieFilePath": "https://qaleelo-assets.s3.us-east-2.amazonaws.com/General/LottieFiles/spider.json",
+          "style": {
+            "width": "200%"
+          },
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "delay": 0.5,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "speed": 2,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0",
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "The type of fear Allah Subhanahu wa Ta’la is talking about here is"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "boxShadow": "5px 5px 10px #888888",
+            "background": "rgb(221, 98, 96)"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null,
+            "rotate": 0,
+            "y": 0
+          },
+          "animate": {
+            "scale": 1,
+            "y": [
+              -1,
+              -10,
+              -1
+            ]
+          },
+          "transition": {
+            "duration": 0.5,
+            "scale": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 10
+            },
+            "background": {
+              "delay": 3
+            },
+            "y": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            },
+            "rotate": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            }
+          },
+          "contentStyle": {
+            "textAlign": "center",
+            "fontSize": "2.5vh",
+            "color": "white",
+            "padding": "15px",
+            "display": "flex",
+            "alignItems": "center",
+            "flexDirection": "column",
+            "borderRadius": "5% 5% 5% 5% / 15% 15% 15% 15%"
+          },
+          "content": "When a person fears something other than Allah in a matter in which only Allah has the Power over."
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {},
+      "subSections": [{
+        "className": "sectionDescription",
+        "style": {},
+        "initial": {
+          "scale": 0,
+          "fontWeight": null
+        },
+        "animate": {
+          "scale": 1
+        },
+        "transition": {
+          "type": "spring",
+          "stiffness": 260,
+          "damping": 20
+        },
+        "content": "Let's understand this from the story that happened."
+      }]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Allah revealed this Ayah during the time of the battle of Uhud. When about 700 Muslims stood against an opposition of 3000."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "width": "50%",
+            "marginLeft": "25%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/The300/sectionImages/1.1.1.png'></img>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "Someone from the hypocrites who feared the opposition more than he feared Allah came to the messenger of Allah Sallallahu Alayhi wa Sallam and said:"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "background": "#95a5a6"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null,
+            "rotate": 0,
+            "y": 0
+          },
+          "animate": {
+            "scale": 1,
+            "y": [
+              -1,
+              -10,
+              -1
+            ]
+          },
+          "transition": {
+            "duration": 0.5,
+            "scale": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 10
+            },
+            "background": {
+              "delay": 3
+            },
+            "y": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            },
+            "rotate": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            }
+          },
+          "contentStyle": {
+            "textAlign": "center",
+            "fontSize": "2.5vh",
+            "padding": "15px",
+            "display": "flex",
+            "alignItems": "center",
+            "flexDirection": "column",
+            "borderRadius": "5% 5% 5% 5% / 15% 15% 15% 15%"
+          },
+          "content": "'Verily, the people have gathered against you, therefore, fear them.'<span style='font-size: 2vh;'><br/>[Surat Ali 'Imran 3:173]</span>"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "width": "50%",
+            "marginLeft": "25%"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "<img src='https://qaleelo-assets.s3.us-east-2.amazonaws.com/General/CanvaGeneratedImages/armyGatherd.png'></img>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "But the Prophet Mohammed Sallahu Alayhi wa Sallam replied:"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "background": "#95a5a6"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null,
+            "rotate": 0,
+            "y": 0
+          },
+          "animate": {
+            "scale": 1,
+            "y": [
+              -1,
+              -10,
+              -1
+            ]
+          },
+          "transition": {
+            "duration": 0.5,
+            "scale": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 10
+            },
+            "background": {
+              "delay": 3
+            },
+            "y": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            },
+            "rotate": {
+              "repeat": "Infinity",
+              "repeatType": "reverse",
+              "duration": 1
+            }
+          },
+          "contentStyle": {
+            "textAlign": "center",
+            "fontSize": "2.5vh",
+            "padding": "15px",
+            "display": "flex",
+            "alignItems": "center",
+            "flexDirection": "column",
+            "borderRadius": "5% 5% 5% 5% / 15% 15% 15% 15%"
+          },
+          "content": " <span style='font-size: 4vh;'>حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ </span>'Allah is Sufficient for us and He is the Best Disposer of affairs for us.'<span style='font-size: 2vh;'><br/>[Surat Ali 'Imran 3:173]</span>"
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0",
+        "marginBottom": "0",
+        "paddingBottom": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "This shows us that the Prophet Sallallahu Alayhi wa Sallam <span style='color: rgb(80, 200, 120); font-weight: bold;'>feared Allah</span> and did not <span style='color: rgb(221, 98, 96); font-weight: bold;'>fear the opposition</span> army because he knew that Only Allah has the Power"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {},
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "delay": 3,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "To Grant Victory!"
+        },
+        {
+          "className": "LottieAnimation",
+          "lottieFilePath": "https://qaleelo-assets.s3.us-east-2.amazonaws.com/General/LottieFiles/trophy.json",
+          "style": {
+            "width": "50%",
+            "marginLeft": "25%"
+          },
+          "initial": {
+            "opacity": 0,
+            "scale": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "scale": 1
+          },
+          "exit": {},
+          "transition": {
+            "delay": 3,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "speed": 2,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "className": "verticalSection",
+      "style": {
+        "marginTop": "0",
+        "paddingTop": "0"
+      },
+      "subSections": [{
+          "className": "sectionDescription",
+          "style": {
+            "marginBottom": "2vh"
+          },
+          "initial": {
+            "scale": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "scale": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "And the story ends with this beautiful Ayah from Allah:"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "fontSize": "4vh",
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "delay": 1,
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "فَٱنقَلَبُوا۟ بِنِعْمَةٍۢ مِّنَ ٱللَّهِ وَفَضْلٍۢ لَّمْ يَمْسَسْهُمْ سُوٓءٌۭ وَٱتَّبَعُوا۟ رِضْوَٰنَ ٱللَّهِ ۗ وَٱللَّهُ ذُو فَضْلٍ عَظِيمٍ"
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "So they returned with Grace and Bounty from Allâh. No harm touched them; and they followed the good Pleasure of Allâh. And Allâh is the Owner of Great Bounty."
+        },
+        {
+          "className": "sectionDescription",
+          "style": {
+            "textAlign": "center",
+            "fontSize": "2vh"
+          },
+          "initial": {
+            "opacity": 0,
+            "fontWeight": null
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "exit": {},
+          "transition": {
+            "type": "spring",
+            "stiffness": 260,
+            "damping": 20
+          },
+          "content": "[Surat Ali 'Imran 3:174]"
+        }
+      ]
+    }
+  ]
+}, {
+  "className": "multiSection",
+  "style": {
+    "display": "flex",
+    "flexDirection": "column"
+  },
+  "subSections": [
+
+  ]
+}

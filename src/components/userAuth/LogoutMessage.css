@@ -1,0 +1,24 @@
+.message-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #000; /* Default text color */
+  }
+  
+  /* Dark mode styles */
+  @media (prefers-color-scheme: dark) {
+    .message-container {
+      background-color: #333; /* Dark mode background color */
+      color: #fff; /* Dark mode text color */
+    }
+  }
+  
+  .message-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }

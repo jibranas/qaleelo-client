@@ -1,0 +1,676 @@
+
+.light {
+  background-color: #E5E4E2;
+  color: white;
+  /* Add more mode-specific styles here */
+}
+
+.dark{
+  background-color: #262c3c;
+  color: black;
+}
+  /*CSS*/
+  body {
+    margin:0;
+    padding:0;
+   
+    
+  }
+
+  .hamburger-btn {
+    /* font-size: 30px; */
+    position: absolute;
+    font-size: 4vh;
+    color:white;
+    cursor: pointer;
+    display: inline-block;
+    /* position: sticky; */
+    top: 0;
+  }
+  /* Overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 500000;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .closeBtn {
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-left: 390px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transform: translateY(-5px);
+    z-index: 750000;
+  }
+
+  .newCloseBtn {
+    margin-left: 84%;
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+    /* transform: translateY(-5px); */
+    /* z-index: 75; */
+  }
+
+
+  .homeBtn {
+   
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+    /* transform: translateY(-5px); */
+    /* z-index: 75; */
+  }
+  /*Sidenav*/
+  .sidenav {
+    font-family: "Quicksand", sans-serif;
+    z-index: 20000;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: left center;
+    transform: translateX(-100%);
+  }
+
+   /*Sidenav*/
+   .SidenavLandingPage {
+    font-family: "Quicksand", sans-serif;
+    z-index: 20000;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* z-index: 100; */
+    /* top: 0; */
+    /* left: 0; */
+    background-color: white;
+    transform-origin: left center;
+    /* transform: translateX(-100%); */
+  }
+
+
+  
+
+
+
+  .sideNavContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    /* background-color: #262c3c; */
+    /* background-color: #E5E4E2; */
+  }
+  .sidenavHeader {
+    color: black;
+    font-weight: bold;
+    background-color: #fcebeb;
+    padding: 10px;
+    /* position: relative; */
+    /* font-size: 23px; */
+    font-size: 2vh;
+  }
+  .sidenavContent {
+    padding: 15px 0px 15px 25px;
+    cursor: pointer;
+    font-size: 2vh;
+  }
+  .sidenavContentHeaderMainMenu {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    /* font-size: 20px; */
+    font-size: 2.3vh;
+    font-weight: bold;
+    color: #dd6260;
+  }
+
+  .sidenavContentHeaderSubContainer {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    /* font-size: 20px; */
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #dd6260;
+    margin-left: 3vw;
+    margin-bottom: 4vh;
+    /* text-align: center; */
+  }
+  /* .sidenavContentHeaderSubContainer:hover {
+    background-color: #f2b1ae;
+  } */
+  .sidenavContent:hover {
+    background-color: #f2b1ae;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+  hr {
+    height: 1px;
+    border: 0;
+    color: gray;
+    background-color: gray;
+    margin: 15px auto 10px auto;
+  }
+  .sidenavRow {
+    display: flex;
+    /* width: 100%; */
+    /* font-size: 1.8vh; */
+    background-color: #b6a7d8;
+    height: 100px;
+    width: 90%;
+  margin: 15px;
+  border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.767); /* Add a subtle box shadow for elevation */
+  
+  align-items: flex-start; /* Align items horizontally in the center */
+   
+  /* justify-content: space-between; */
+    /* padding: 15px; */
+    cursor: pointer;
+    position: relative;
+    
+  }
+  .sidenavRow:hover {
+    background-color: #f2b1ae;
+  }
+  .sidenavRow i {
+    color: #8e9090;
+  }
+  .sidenavRow:hover i {
+    color: #111111;
+  }
+  .sidenavRowText{
+    font-size: 2.2vh;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 600px;
+  }
+
+  .sidenavRowLessonText{
+    color: black;
+    font-size: 2vh;
+    font-weight: bold;
+   
+  }
+
+  .sideNavRowLessonTextContainer{
+    margin-left: 2%;
+    margin-top: 11%;
+  }
+  /*DropDown*/
+  .sidenavRowDropdown {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+  }
+
+  .sideNavRowImage{
+    width: auto;
+   height: 100%;
+  /* margin: 30px; */
+  border-radius: 10%;
+  /* display:block; */
+    /* margin-right:20px; */
+    float: left;
+    /* z-index: -2; */
+
+  }
+
+  .sideNavChapterHeader {
+    color: #dd6260;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: left;
+    /* margin-left: 5vw; */
+  }
+
+  .sideNavChapterHeader p{
+      margin-top: 2vh;
+      margin-bottom: 0.2vh;
+      margin-left: 5%;
+
+    }
+  
+    .sidenavContentChapter{
+      display: flex;
+      /* width: 50%;
+      margin-left: 25%; */
+      /* font-size: 1.8vh; */
+      /* height: 5vh; */
+      /* width: 90%; */
+    /* margin: 80px; */
+    border-radius: 5%;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Align items vertically in the center */
+      justify-content: space-between;
+    }
+
+   
+
+  
+  .circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dd6260;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-number {
+    color: white;
+    font-size: 2vh;
+  }
+
+  .circleLesson {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dd6260;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-numberLesson {
+    color: white;
+    font-size: 2vh;
+  }
+
+  .circleQuiz {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #a678de;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidenavRowLesson{
+    display: flex;
+    /* width: 100%; */
+    /* font-size: 1.8vh; */
+    background-color: #b6a7d8;
+    height: 100px;
+    width: 90%;
+  margin: 15px;
+  border-radius: 15% 2% 2% 15% / 50% 10% 10% 50%;
+  
+  align-items: flex-start; /* Align items horizontally in the center */
+   
+  /* justify-content: space-between; */
+    /* padding: 15px; */
+    cursor: pointer;
+    position: relative;
+    /* margin-left: 45px; */
+    
+  }
+
+  
+
+  .sideNavRowLessonImage{
+    width: auto;
+    height: 100%;
+   /* margin: 30px; */
+   border-radius: 50%;
+   /* display:block; */
+     /* margin-right:20px; */
+     float: left;
+     /* z-index: -2; */
+  }
+  
+  .sidenavRowDropdown:hover {
+    background-color: #f2b1ae;
+  }
+  
+  .sidenavRowDropdown i {
+    color: #8e9090;
+    margin-left: 10px;
+  }
+  
+  .sidenavRowDropdown:hover i {
+    color: #111111;
+  }
+  
+  .sidenavContainer {
+    height: 0px;
+    transition: height 0.3s;
+    transform-origin: center top;
+
+    
+  }
+
+  
+  
+  .sidenavContainer hr {
+    width: 85%;
+  }
+  .paddingDiv {
+    transition: margin-bottom 0.3s;
+  }
+  /*Sub Container*/
+  .sub-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+     /* background-color: #262c3c; */
+     /* background-color: #E5E4E2; */
+    transform: translateX(100%);
+    
+  }
+  .sub-header {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 15px 0px 0px 25px;
+    font-weight: bold;
+    font-size: 3vh;
+   
+ 
+  }
+  .sub-header:hover {
+ 
+    cursor: pointer;
+  }
+  .sub-header i {
+    color: white;
+  }
+
+  .sidenavHeader {
+    font-size: 3vh;
+  }
+
+  .courseSideNavImage{
+    width: 4%;
+  height: auto;
+  margin: 30px;
+  border-radius: 15%;
+  display:block;
+    margin:auto;
+  }
+
+  /* Adjust width for mobile view (width: 25%) */
+  @media only screen and (max-width: 600px) {
+
+    .sideNavRowChapterContent{
+      width: 55%;
+   }
+
+    .sideNavContentsContainer{
+      padding: 10px;
+    }
+
+    .quizImage {
+      height: 100px;
+      width: 100px;
+    }
+  
+  .courseSideNavImage{
+    width: 20%;
+  }
+ 
+  
+}
+  /* Adjust width for desktop view (width: 25%) */
+  @media only screen and (min-width: 601px) {
+
+    .sub-header{
+      width: 50%;
+      margin-left: 20%;
+    }
+
+.sideNavRowChapterContent{
+   width: 75%;
+}
+
+    .sidenavContentChapter{
+      width: 50%;
+      margin-left: 25%;
+    }
+
+.sideNavContentsContainer{
+  padding: 10px;
+}
+
+
+    .ContinueSideNavContainer{
+      width: 50%;
+      margin-left: 25%;
+    }
+
+  .newCloseBtn {
+    
+   
+    margin-left: 95%;
+    font-size: 5vh;
+  
+    /* transform: translateY(-5px); */
+    /* z-index: 75; */
+  }
+
+.sidenavRow {
+  
+  height: 100px;
+  /* width: 50%; */
+margin: 15px;
+border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;
+
+align-items: flex-start; /* Align items horizontally in the center */
+ 
+/* justify-content: space-between; */
+  /* padding: 15px; */
+  cursor: pointer;
+  position: relative;
+}
+
+.quizImage {
+  height: 100px;
+  width: 100px;
+}
+
+.sidenavRowLesson{
+ 
+  height: 100px;
+  /* width: 60%; */
+margin: 15px;
+border-radius: 6% 2% 2% 6% / 50% 10% 10% 50%;
+
+align-items: flex-start; /* Align items horizontally in the center */
+ 
+/* justify-content: space-between; */
+  /* padding: 15px; */
+  cursor: pointer;
+  position: relative;
+  /* margin-left: 20%; */
+  
+}
+
+.sidenavRowText{
+  font-size: 2.5vh;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.sideNavRowLessonTextContainer{
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.sidenavRowLessonText{
+
+  color:black;
+  font-size: 2.5vh;
+  font-weight: bold;
+ 
+}
+
+.sideNavChapterHeader{
+    color: #dd6260;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: left;
+    /* margin-left: 19vw; */
+    margin-top: 6vh;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .sidenavContentHeaderMainMenu {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    /* font-size: 20px; */
+    font-size: 2.8vh;
+    font-weight: bold;
+    color: #dd6260;
+  } 
+
+  .sidenavContentHeaderSubContainer {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    /* font-size: 20px; */
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #dd6260;
+    margin-left: 19%;
+    margin-bottom: 4vh;
+    /* text-align: center; */
+  }
+  
+
+  .circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dd6260;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-number {
+    color: white;
+    font-size: 3vh;
+  }
+
+
+  .circleLesson {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dd6260;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-numberLesson {
+    color: white;
+    font-size: 3vh;
+  }
+
+  .circleQuiz {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #a678de;
+    border-radius: 5% 10% 5% 50% / 10% 10% 10% 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  
+  /*Animations*/
+  /*Expand the entire sidenav outwards*/
+  @keyframes moveSideBar {
+    0% {
+      transform: translateX(-100%);
+      z-index: 1000000;
+    }
+    100% {
+      transform: translateX(-0px);
+    }
+  }
+  /*General fade into existence*/
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /*Open and close drop down*/
+  @keyframes dropDown {
+    0% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+  /*Move sub container*/
+  @keyframes moveSubContainer {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  /*Move main container in relation to sub container*/
+  @keyframes moveMainContainer {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

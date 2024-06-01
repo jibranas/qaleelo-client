@@ -1,0 +1,641 @@
+/*Some colore profiles that I have used in Lessons that can be used again:
+highlight: #a678de
+#08BCB3
+rgb(188,89,8)
+dark background: #483e5b
+Green highlight: rgb(80, 200, 120)
+Red highlight: rgb(221, 98, 96)
+borderRadius that works with rectangles: "5% 5% 5% 5% / 10% 10% 10% 10%"
+
+Other colours:
+#F51663
+#B00F47
+#E88D72
+#BB715B
+
+Trios:
+#58C13E
+#3E58C1
+#C13E58
+-------
+
+
+
+Common Arabic words:
+
+*/
+
+
+:root {
+  --background-light: #E5E4E2;
+  --background-dark: #262c3c;
+}
+
+
+
+
+
+.lightThemeFont{
+  color: black
+}
+
+
+.darkThemeFont{
+  color:white
+}
+
+
+
+
+
+.Lesson { 
+  /* background-color: #262c3c; */
+  /* background-color: #E5E4E2; */
+ /* display: flex;
+ justify-content: center; */
+  
+  width: 100%; 
+    height: 100%; 
+    /* overflow: hidden;  */
+    /* background: radial-gradient(circle, #3498db, #e74c3c); */
+  
+}
+
+.LessonContainer {
+  max-height: 100%;
+  max-width: 100%;
+ 
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    
+}
+
+.LessonTitleContainer {
+  /* display: flex;
+  flex-direction: column; */
+  color: #dd6260;
+  font-size: 3vh;
+  font-weight: bold;
+
+  /* text-align: left; */
+}
+
+.LessonTitleContainerOnSideNav{
+   /* display: flex;
+  flex-direction: column; */
+  color: #dd6260;
+  font-size: 3vh;
+  font-weight: bold;
+  margin: 20px;
+  /* text-align: left; */
+}
+
+.LessonNumber {
+  font-size: 2vh;
+}
+
+
+.LessonExampleAnswerExplanationContainer {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.LessonExampleAnswerExplanation {
+  /* color: white; */
+  /* color: black; */
+  font-size: 2vh;
+  margin-left: 25px;
+}
+
+.LessonExampleAnswer {
+  /* color: white; */
+  padding: 10px;
+
+}
+
+.LessonExampleBox{
+  margin-top: 5vh;
+}
+
+.LessonExampleNextLessonBox {
+  margin-top: 5vh;
+}
+
+
+.sectionTitle{
+color: white;
+text-align: center;
+  /* font-size: 20px; */
+  /* font-size: clamp(3vh, 20px, 20px); */
+  font-size: 3vh;
+  display: block;
+  margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.sectionDescription {
+ /* height: 30vh; */
+  /* font-size: 20px; */
+  /* display: flex;
+  flex-direction: column; */
+  /* background: #252525; */
+ 
+  /* color: white; */
+  /* color: black; */
+  font-size: 2.5vh;
+  text-align: left;
+  /* white-space: pre-line; */
+  /* margin: 10px 30px; */
+  /* padding: 20px; */
+  /* box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.5); */
+  /* display: block; */
+  /* position: relative; */
+  /* align-items: center; */
+  font-family: "Quicksand", sans-serif;
+  border-radius: 1rem;
+  max-width: 100%;
+  margin: 5px 5px 5px 10px;
+}
+
+
+.forwardButton {
+  max-width: 100%;
+  /* border: 2px solid white; */
+  /* color: white; */
+  position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 25%;
+      /* background-color: lightblue; */
+      z-index: 1000;
+}
+
+.forwardButtonVisibleLight {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 20px;
+  /* border: 5px dotted black; */
+  color: #8f4ae2;
+  position: fixed;
+      bottom: 0;
+      width: 95%;
+      height: 75%;
+      font-size: 3vh;
+      /* background-color: lightblue; */
+      z-index: 1000;
+}
+
+
+.forwardButtonVisibleDark {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 20px;
+  /* border: 5px dotted white; */
+  color: #b08adf;
+  position: fixed;
+      bottom: 0;
+      width: 95%;
+      height: 75%;
+      font-size: 3vh;
+      /* background-color: lightblue; */
+      z-index: 1000;
+}
+
+
+.arabicLargeSize{
+font-size: 6vh;
+}
+
+.arabicNormalSize {
+  font-size: 4vh;
+}
+
+.arabicVeryLargeSize{
+  font-size: 8vh;
+}
+
+.verticalSection {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  flex-direction: column;
+  padding: 2vh;
+  margin: 2vh 0 2vh 0;
+}
+
+.horizontalSection {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding: 2vh;
+}
+
+.sectionDescription img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  /* position: absolute; */
+}
+
+.nextLessonButton {
+  display: flex;
+    /* width: 100%; */
+    /* font-size: 1.8vh; */
+    background-color: #b6a7d8;
+    height: 250px;
+    width: 90%;
+  margin: 15px;
+  border-radius: 2% 2% 2% 2% / 10% 10% 10% 10%;
+  
+  align-items: flex-start; /* Align items horizontally in the center */
+   
+  /* justify-content: space-between; */
+    /* padding: 15px; */
+    cursor: pointer;
+    position: relative;
+    margin-left: 45px;
+}
+
+
+#toggle_checkbox
+{
+    display: none;
+}
+
+label
+{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #77b5fe;
+    border-radius: 56px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.3s ease background-color;
+    overflow: hidden;
+}
+
+#star
+{
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    width: 20px;
+    height: 20px;
+    background-color: #fafd0f;
+    transform: scale(1);
+    border-radius: 50%;
+    transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform, 0.3s ease background-color;
+    z-index: 1;
+}
+
+#star-1
+{
+    position: relative;
+}
+
+#star-2
+{
+    position: absolute;
+    transform: rotateZ(36deg);
+}
+
+.star
+{
+    top: -5px;
+    left: -2px;
+    font-size: 30px;
+    line-height: 28px;
+    color: #fafd0f;
+    transition: 0.3s ease color;
+}
+
+#moon
+{
+    position: absolute;
+    bottom: -52px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease bottom;
+}
+
+#moon:before
+{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-color:#03a9f4;
+    border-radius: 50%;
+    transition: 0.3s ease background-color;
+}
+
+#toggle_checkbox:checked + label
+{
+    background-color: #000;
+}
+
+#toggle_checkbox:checked + label #star
+{
+    top: 3px;
+    left: 64px;
+    transform: scale(0.3);
+    background-color: yellow;
+}
+
+#toggle_checkbox:checked + label .star
+{
+    color: yellow;
+}
+
+#toggle_checkbox:checked + label #moon
+{
+    bottom: 8px;
+}
+
+#toggle_checkbox:checked + label #moon:before
+{
+    background-color: #000;
+}
+
+/* Style for the toggle button container */
+.toggle-container {
+  position: fixed;
+  top: 50%; /* Adjust the vertical position as needed */
+  right: 100px; /* Adjust the horizontal position as needed */
+  transform: translateY(-50%);
+  z-index: 999; /* Ensure the button appears above other content */
+}
+
+
+/*Desktop view*/
+@media only screen and (min-width: 601px) { 
+
+
+  .horizontalSection {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+padding: 0.5vh;
+  }
+
+  .LessonTitleContainer {
+    margin-left: 2px;
+    margin-top: 3vh;
+  }
+
+.arabicCircle {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#toggle_checkbox
+{
+    display: none;
+}
+
+label
+{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 60px;
+    height: 25px;
+    margin: 0 auto;
+    background-color: #77b5fe;
+    border-radius: 56px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.3s ease background-color;
+    overflow: hidden;
+}
+
+#star
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #fafd0f;
+    transform: scale(1);
+    border-radius: 50%;
+    transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform, 0.3s ease background-color;
+    z-index: 1;
+}
+
+#star-1
+{
+    position: relative;
+}
+
+#star-2
+{
+    position: absolute;
+    transform: rotateZ(36deg);
+}
+
+.star
+{
+    top: -2px;
+    left: -2px;
+    font-size: 25px;
+    line-height: 15px;
+    color: #fafd0f;
+    transition: 0.3s ease color;
+}
+
+#moon
+{
+    position: absolute;
+    bottom: -52px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease bottom;
+}
+
+#moon:before
+{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    background-color:#03a9f4;
+    border-radius: 50%;
+    transition: 0.3s ease background-color;
+}
+
+#toggle_checkbox:checked + label
+{
+    background-color: #000;
+}
+
+#toggle_checkbox:checked + label #star
+{
+    top: 3px;
+    left: 64px;
+    transform: scale(0.3);
+    background-color: yellow;
+}
+
+#toggle_checkbox:checked + label .star
+{
+    color: yellow;
+}
+
+#toggle_checkbox:checked + label #moon
+{
+    bottom: 3px;
+}
+
+#toggle_checkbox:checked + label #moon:before
+{
+    background-color: #000;
+}
+
+.toggle-container {
+  position: fixed;
+  top: 50%; /* Adjust the vertical position as needed */
+  right: 100px; /* Adjust the horizontal position as needed */
+  transform: translateY(-50%);
+  z-index: 999; /* Ensure the button appears above other content */
+}
+
+.LessonTitleContainerOnSideNav{
+  margin-left: 300px;
+}
+
+
+.sectionDescription img {
+  max-width: 100%;
+    height: auto;
+  /* position: absolute; */
+}
+
+/* .verticalSection {
+  max-width: 30% ;
+} */
+
+.Lesson {
+  max-width: 100%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+
+}
+
+.LessonContainer {
+  width: 40%;
+
+  /* max-width: 600px; */
+ 
+
+}
+
+.Quiz {
+  display: flex;
+ justify-content: center;
+}
+
+.QuizContainer {
+  max-width: 530px;
+  /* max-width: 600px; */
+ 
+
+}
+
+.LessonExampleBox{
+  margin-top: 0vh;
+}
+
+.LessonExampleNextLessonBox {
+  margin-top: 5vh;
+}
+
+.LessonExampleAnswerBox{
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.wrongCross {
+  color: red;
+  display: inline;
+  font-size: 5vh;
+  margin: 0 10px;
+}
+
+.correctCheckMark {
+  color: green;
+  display: inline;
+  font-size: 5vh;
+  margin: 0 10px 0 0;
+}
+
+}
+
+/*Mobile view*/
+@media only screen and (max-width: 600px) { 
+
+  .LessonTitleContainer {
+    margin: 20px;
+  }
+
+  .arabicCircle {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .LessonTitleContainerOnSideNav{
+    margin-left: 60px;
+  }
+  
+  .LessonExampleAnswerBox{
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .wrongCross {
+    color: red;
+    display: inline;
+    font-size: 4vh;
+    margin: 0 10px;
+  }
+
+  .correctCheckMark {
+    color: green;
+    display: inline;
+    font-size: 4vh;
+    margin: 0 10px 0 0;
+  }
+
+  }

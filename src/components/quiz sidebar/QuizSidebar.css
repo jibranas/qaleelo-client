@@ -1,0 +1,275 @@
+
+  /*Hamburger Button*/
+  /*CSS*/
+  body {
+    margin:0;
+    padding:0
+  }
+
+  .hamburger-btn {
+    /* font-size: 30px; */
+    position: absolute;
+    font-size: 4vh;
+    cursor: pointer;
+    display: inline-block;
+    /* position: sticky; */
+    top: 0;
+  }
+  /* Overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .closeBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 90%;
+    color: white;
+    font-size: 100px;
+    cursor: pointer;
+    transform: translateY(-5px);
+    z-index: 7000;
+  }
+  /*Sidenav*/
+  .Quizsidenav {
+    font-family: "Quicksand", sans-serif;
+    z-index: 2;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: left center;
+    transform: translateX(-100%);
+  }
+
+  @media (max-width: 1200px) {
+    .Quizsidenav {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .QuizsideNavContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .QuizsidenavHeader {
+    color: black;
+    font-weight: bold;
+    background-color: #fcebeb;
+    padding: 10px 0px 10px 30px;
+    /* font-size: 23px; */
+    font-size: 2vh;
+  }
+  .sidenavContent {
+    padding: 15px 0px 15px 25px;
+    cursor: pointer;
+    font-size: 2vh;
+  }
+  .QuizsidenavContentHeaderMainMenu {
+    /* margin-top: 10px; */
+    /* padding: 15px; */
+    /* font-size: 20px; */
+    font-size: .8vh;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .QuizsidenavContentHeaderSubContainer {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    /* font-size: 20px; */
+    font-size: 2.3vh;
+    font-weight: bold;
+  }
+  .QuizsidenavContentHeaderSubContainer:hover {
+    background-color: #f2b1ae;
+  }
+  .sidenavContent:hover {
+    background-color: #d0bad9;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+  hr {
+    height: 1px;
+    border: 0;
+    color: gray;
+    background-color: gray;
+    margin: 15px auto 10px auto;
+  }
+
+  .QuizsidenavContentChapter{
+    display: flex;
+    /* width: 100%; */
+    /* font-size: 1.8vh; */
+    /* height: 5vh; */
+    /* width: 90%; */
+  /* margin: 80px; */
+  border-radius: 5%;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Align items horizontally in the center */
+  justify-content: center; /* Align items vertically in the center */
+    justify-content: space-between;
+  }
+  .QuizsidenavRow {
+    display: flex;
+    /* width: 100%; */
+    /* font-size: 1.8vh; */
+    background-color: #b6a7d8;
+    height: 5vh;
+    /* width: 90%; */
+  margin: 80px;
+  border-radius: 5%;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Align items horizontally in the center */
+  justify-content: center; /* Align items vertically in the center */
+    justify-content: space-between;
+    /* padding: 15px; */
+    cursor: pointer;
+  }
+  .QuizsidenavRow:hover {
+    background-color: #f2b1ae;
+  }
+  .QuizsidenavRow i {
+    color: #8e9090;
+  }
+  .QuizsidenavRow:hover i {
+    color: #111111;
+  }
+  .QuizsidenavRowText{
+    font-size: 2vh;
+  }
+  /*DropDown*/
+  .sidenavRowDropdown {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+  }
+  
+  .sidenavRowDropdown:hover {
+    background-color: #f2b1ae;
+  }
+  
+  .sidenavRowDropdown i {
+    color: #8e9090;
+    margin-left: 10px;
+  }
+  
+  .sidenavRowDropdown:hover i {
+    color: #111111;
+  }
+  
+  .QuizsidenavContainer {
+    height: 0px;
+    transition: height 0.3s;
+    transform-origin: center top;
+
+    
+  }
+
+  
+  
+  .QuizsidenavContainer hr {
+    width: 85%;
+  }
+  .paddingDiv {
+    transition: margin-bottom 0.3s;
+  }
+  /*Sub Container*/
+  .Quizsub-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    transform: translateX(100%);
+  }
+  .Quizsub-header {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    font-weight: bold;
+    font-size: 1.5vh;
+  }
+  .Quizsub-header:hover {
+    background-color: #f2b1ae;
+    cursor: pointer;
+  }
+  .Quizsub-header i {
+    color: #8e9090;
+  }
+
+  .QuizsidenavHeader {
+    font-size: 3vh;
+  }
+  
+  /*Animations*/
+  /*Expand the entire sidenav outwards*/
+  @keyframes moveSideBar {
+    0% {
+      transform: translateX(-100%);
+      z-index: 100;
+    }
+    100% {
+      transform: translateX(-0px);
+    }
+  }
+  /*General fade into existence*/
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /*Open and close drop down*/
+  @keyframes dropDown {
+    0% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+  /*Move sub container*/
+  @keyframes QuizmoveSubContainer {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  /*Move main container in relation to sub container*/
+  @keyframes QuizmoveMainContainer {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
